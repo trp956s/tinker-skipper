@@ -2,8 +2,7 @@
   "name": "skipper-setup-kubernetes",
   "version": "1.0.0",
   "description": "setup kubernetes and minikube",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/trp956s/tinker-skipper.git"
@@ -17,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/trp956s/tinker-skipper/issues"
   },
-  "homepage": "https://github.com/trp956s/tinker-skipper#readme"
+  "homepage": "https://github.com/trp956s/tinker-skipper#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "kubectl": "0.0.0",
+    "minikube-cli": "^0.16.0"
+  }
 }
