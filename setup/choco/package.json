@@ -9,6 +9,7 @@
 				"install:powershell-choco": "@powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./installChoco.ps1",
 				"install:choco-kube-cli": "choco install kubernetes-cli",
 				"install:choco-miinkube": "choco install minikube",
+    				"install:choco-docker": "choco install -y docker",
 		"config": "npm-run-all config:*",
 				"config:kubectl": "kubectl config use-context minikube"
   },
