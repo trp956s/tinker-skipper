@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "setup kubernetes and minikube",
   "scripts": {
-	"powershell:choco": "@powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./installChoco.ps1"
+	"install:powershell:choco": "@powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./installChoco.ps1",
+	"install:choco:kube-cli": "choco install kubernetes-cli"
   },
   "repository": {
     "type": "git",
