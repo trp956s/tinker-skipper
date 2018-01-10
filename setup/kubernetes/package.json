@@ -2,7 +2,9 @@
   "name": "skipper-setup-kubernetes",
   "version": "1.0.0",
   "description": "setup kubernetes and minikube",
-  "scripts": {},
+  "scripts": {
+	"powershell:choco": "@powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./installChoco.ps1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/trp956s/tinker-skipper.git"
@@ -18,8 +20,5 @@
   },
   "homepage": "https://github.com/trp956s/tinker-skipper#readme",
   "dependencies": {},
-  "devDependencies": {
-    "kubectl": "0.0.0",
-    "minikube-cli": "^0.16.0"
-  }
+  "devDependencies": {}
 }
