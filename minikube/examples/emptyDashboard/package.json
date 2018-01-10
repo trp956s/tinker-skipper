@@ -1,0 +1,10 @@
+{
+  "name": "minikube-empty-dashboard",
+  "version": "1.0.0",
+  "description": "open a dashboard in minikube",
+  "scripts": {
+    
+  },
+  "author": "tom.pepe",
+  "license": "ISC"
+}
