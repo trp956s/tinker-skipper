@@ -1,0 +1,23 @@
+{
+  "name": "skipper-setup-kubernetes",
+  "version": "1.0.0",
+  "description": "setup kubernetes and minikube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trp956s/tinker-skipper.git"
+  },
+  "keywords": [
+    "skipper",
+    "kubernetes"
+  ],
+  "author": "tom pepe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trp956s/tinker-skipper/issues"
+  },
+  "homepage": "https://github.com/trp956s/tinker-skipper#readme"
+}
