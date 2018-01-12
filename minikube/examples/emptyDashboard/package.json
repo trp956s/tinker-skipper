@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "open a dashboard in minikube",
   "scripts": {
-    "start" : "minikube start && minikube dashboard"
+    "start" : "minikube start && npm run config && minikube dashboard",
+    "config": "kubectl config use-context minikube"
   },
   "repository": {
     "type": "git",

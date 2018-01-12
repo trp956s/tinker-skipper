@@ -4,14 +4,12 @@
   "description": "setup kubernetes and minikube",
   "scripts": {
     "postinstall": "npm run install-and-config",
-		"install-and-config": "npm run install-with-choco && npm run config",
+		"install-and-config": "npm run install-with-choco",
 			"install-with-choco": "npm-run-all --parallel install:*",
 				"install:powershell-choco": "@powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./installChoco.ps1",
 				"install:choco-kube-cli": "choco install kubernetes-cli",
 				"install:choco-miinkube": "choco install minikube",
-    				"install:choco-docker": "choco install -y docker",
-		"config": "npm-run-all config:*",
-				"config:kubectl": "kubectl config use-context minikube"
+    				"install:choco-docker": "choco install -y docker"
   },
   "repository": {
     "type": "git",
