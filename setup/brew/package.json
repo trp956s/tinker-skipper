@@ -4,7 +4,8 @@
   "description": "install components to run the examples",
   "scripts": {
     "postinstall": "brew update",
-    "install:kubernetes": "brew install kubectl || brew upgrade kubernetes-cli"
+    "install:kubernetes": "brew install kubectl || brew upgrade kubernetes-cli",
+    "install:minikube": "brew cask install minikube"
   },
   "repository": {
     "type": "git",
