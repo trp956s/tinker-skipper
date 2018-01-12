@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "install components to run the examples",
   "scripts": {
+    "postinstall": "brew update",
+    "install:kubernetes": "brew install kubectl || brew upgrade kubernetes-cli"
   },
   "repository": {
     "type": "git",
