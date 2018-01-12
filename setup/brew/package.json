@@ -7,7 +7,8 @@
     "install:kubernetes": "brew install kubectl || brew upgrade kubernetes-cli",
     "install:minikube": "brew cask install minikube",
     "install:docker": "brew install docker",
-    "install:docker-link": "brew link docker"
+    "install:docker-link": "brew link docker",
+    "install:virtualbox": "brew cask install virtualbox"
   },
   "repository": {
     "type": "git",
