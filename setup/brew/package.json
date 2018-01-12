@@ -1,0 +1,22 @@
+{
+  "name": "setup-brew",
+  "version": "1.0.0",
+  "description": "install components to run the examples",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trp956s/tinker-skipper.git"
+  },
+  "keywords": [
+    "skipper",
+    "kubernetes",
+    "minikube"
+  ],
+  "author": "tom.pepe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trp956s/tinker-skipper/issues"
+  },
+  "homepage": "https://github.com/trp956s/tinker-skipper#readme"
+}
